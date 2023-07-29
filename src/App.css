@@ -1,0 +1,59 @@
+.AllApp{
+  text-align: center;
+  display: block;
+    justify-content: space-around;
+    align-items: center;
+  background: #050801;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #eee3f5;
+}
+.App {
+  text-align: center;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 750px;
+}
+
+
+
+#text{
+  color: #b252f2;
+  text-shadow: 3px 2px 0px #250b53;
+}
+
+#h_weather{
+  color:#9f2fe9;
+  text-shadow: 3px 2px 0px #272224,
+  1px 5px 10px #321446, 
+  -1px 5px 15px #cc95f0, 
+  -1px -5px 25px #920cec;
+}
+.buttons
+{
+  position: relative;
+    display: inline-block;
+    padding: 20px 5px;
+    margin: 10px;
+    width: 200px;
+    color: #aa44ed;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    
+}
+.buttons:hover
+{
+  background: #aa44ed;
+  color: #f8f1fe;
+  box-shadow: 0 0 5px #aa44ed,
+   0 0 25px #aa44ed,
+    0 0 50px #aa44ed,
+     0 0 200px #aa44ed;
+}
+
+
